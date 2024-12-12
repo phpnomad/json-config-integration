@@ -48,6 +48,9 @@
       "email": "alex@standiford.us"
     }
   ],
+  "autoload": {
+    "PHPNomad\\Component\\JsonConfigIntegration\\": "lib"
+  },
   "require": {
     "phpnomad/config": "dev-main",
     "phpnomad/di": "dev-main",

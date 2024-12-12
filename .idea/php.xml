@@ -16,8 +16,15 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/phpnomad/config" />
       <path value="$PROJECT_DIR$/vendor/phpnomad/di" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/mutator" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/event" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/update" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/facade" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/utils" />
+      <path value="$PROJECT_DIR$/vendor/phpnomad/loader" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

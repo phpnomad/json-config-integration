@@ -6,6 +6,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/array-json-config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/di" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/event" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/facade" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/loader" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/mutator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/update" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpnomad/utils" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

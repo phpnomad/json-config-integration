@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace PHPNomad\Component\JsonConfigIntegration;
 
 use PHPNomad\ArrayJsonConfig\Strategies\ArrayConfigStrategy;
 use PHPNomad\Config\Interfaces\ConfigFileLoaderStrategy;

@@ -49,7 +49,7 @@
     }
   ],
   "autoload": {
-    "PHPNomad\\Component\\JsonConfigIntegration\\": "lib"
+    "PHPNomad\\Component\\JsonConfigIntegration\\": "lib/"
   },
   "require": {
     "phpnomad/config": "dev-main",

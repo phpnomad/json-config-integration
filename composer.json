@@ -49,7 +49,9 @@
     }
   ],
   "autoload": {
-    "PHPNomad\\Component\\JsonConfigIntegration\\": "lib/"
+    "psr-4": {
+      "PHPNomad\\Component\\JsonConfigIntegration\\": "lib/"
+    }
   },
   "require": {
     "phpnomad/config": "dev-main",

@@ -1,62 +1,24 @@
 {
-  "name": "phpnomad/json-config-integration",
-  "description": "description",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "license": "MIT",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/array-json-config.git"
+    "name": "phpnomad/json-config-integration",
+    "description": "description",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Standiford",
+            "email": "alex@standiford.us"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPNomad\\Component\\JsonConfigIntegration\\": "lib/"
+        }
     },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/config.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/loader.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/facade.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/utils.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/mutator.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/update.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/event.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:phpnomad/di.git"
+    "require": {
+        "phpnomad/config": "^1.0",
+        "phpnomad/di": "^1.0",
+        "phpnomad/loader": "^1.0",
+        "phpnomad/array-json-config": "^1.0"
     }
-  ],
-  "authors": [
-    {
-      "name": "Alex Standiford",
-      "email": "alex@standiford.us"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "PHPNomad\\Component\\JsonConfigIntegration\\": "lib/"
-    }
-  },
-  "require": {
-    "phpnomad/config": "dev-main",
-    "phpnomad/di": "dev-main",
-    "phpnomad/loader": "dev-main",
-    "phpnomad/array-json-config": "dev-main"
-  }
 }

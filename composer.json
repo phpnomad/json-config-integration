@@ -17,7 +17,7 @@
     },
     "require": {
         "phpnomad/config": "^1.0",
-        "phpnomad/di": "^1.0",
+        "phpnomad/di": "^2.0",
         "phpnomad/loader": "^1.0",
         "phpnomad/array-json-config": "^1.0"
     }
